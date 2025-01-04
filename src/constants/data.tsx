@@ -1,5 +1,5 @@
 import Image from "../Image/Photo.jpeg";
-import Resume from "../../public/Ankit Sharma CV.pdf"
+import Resume from "/Ankit Sharma CV.pdf"
 
 // Personal details
 export const headerDetails = {

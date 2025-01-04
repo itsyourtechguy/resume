@@ -40,7 +40,7 @@ function App() {
             <Courses coursesData={coursesData} />
             <Certifications certificationsData={certificationsData} />
           </div>
-        </div>
+        </div>       
       </div>
     </div>
   );

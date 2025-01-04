@@ -1,4 +1,5 @@
 import Image from "../Image/Photo.jpeg";
+import Resume from "../../public/Ankit Sharma CV.pdf"
 
 // Personal details
 export const headerDetails = {
@@ -9,6 +10,8 @@ export const headerDetails = {
   githubLink: "https://github.com/itsyourtechguy",
   linkedin: "https://www.linkedin.com/in/ankit-sharma-17ba89148/",
   phone: "+36 70 413 7849",
+  website: "https://itsyourtechguy.github.io/Portfolio",
+  resume: Resume,
 };
 
 // Education

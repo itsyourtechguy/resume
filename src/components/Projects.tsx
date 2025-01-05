@@ -8,6 +8,7 @@ const Projects = ({ projectsData }: { projectsData: Project[] }) => {
             key={index}
             className="bg-gray-700 p-4 rounded-lg shadow-md flex flex-col justify-between"
           >
+            <a href={project.link}>
             <h3 className="text-lg font-semibold text-teal-400">
               {project.title}
             </h3>
@@ -21,6 +22,7 @@ const Projects = ({ projectsData }: { projectsData: Project[] }) => {
                 {project.visibility}
               </span>
             </div>
+            </a>
           </div>
         ))}
       </div>

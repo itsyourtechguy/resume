@@ -172,28 +172,39 @@ export const coursesData = [
 // Projects
 export const projectsData = [
   {
+    title: "QR Generator",
+    description: "Convert your URL in QR code.",
+    language: "Node.js",
+    visibility: "Public",
+    link: "https://github.com/itsyourtechguy/QR-generator",
+  },
+  {
     title: "Hangman",
     description: "A classic word guessing game using JavaScript.",
     language: "React + Tailwind",
     visibility: "Public",
+    link: "https://github.com/itsyourtechguy/hangman-game",
   },
   {
     title: "Drum-kit-game",
     description: "A simple game to play drum sounds using keys.",
     language: "JavaScript",
     visibility: "Public",
+    link: "https://github.com/itsyourtechguy/Drum-kit-game",
   },
   {
     title: "simon-challenge-game",
     description: "A fun memory-based game inspired by Simon.",
     language: "JavaScript",
     visibility: "Public",
+    link: "https://github.com/itsyourtechguy/simon-challenge-game",
   },
   {
     title: "Portfolio",
     description: "Personal portfolio showcasing projects and skills.",
     language: "React",
     visibility: "Public",
+    link: "https://github.com/itsyourtechguy/Portfolio",
   },
 ];
 

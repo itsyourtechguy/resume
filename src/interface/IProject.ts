@@ -3,4 +3,5 @@ type Project = {
   description: string;
   language: string;
   visibility: string;
+  link: string;
 };

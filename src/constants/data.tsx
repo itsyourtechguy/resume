@@ -1,4 +1,4 @@
-import Image from "../Image/Photo.jpeg";
+import Image from "../Image/photo3.jpeg";
 import Resume from "../Ankit Sharma CV.pdf"
 
 // Personal details

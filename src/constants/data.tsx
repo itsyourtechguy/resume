@@ -5,7 +5,11 @@ import Resume from "../Ankit Sharma CV.pdf"
 export const headerDetails = {
   image: Image,
   name: "Ankit Sharma",
-  title: "Frontend Developer",
+  title: [
+    "Front-end Developer",
+    "JavaScript Developer",
+    "React Developer",
+  ],
   email: "ankit260196sharma@gmail.com",
   githubLink: "https://github.com/itsyourtechguy",
   linkedin: "https://www.linkedin.com/in/ankit-sharma-17ba89148/",

@@ -1,5 +1,6 @@
 import { MdEmail } from "react-icons/md";
 import { FaDownload, FaGithub, FaGlobe, FaLinkedin, FaPhone } from "react-icons/fa";
+import Typewriter from "typewriter-effect";
 
 const Header = ({ details }: { details: any }) => {
   const { image, name, title, email, githubLink, phone, linkedin, website, resume } = details;
@@ -13,7 +14,15 @@ const Header = ({ details }: { details: any }) => {
 
       {/* Name and Title */}
       <h1 className="text-3xl font-bold mt-4 text-blue-400">{name}</h1>
-      <p className="text-lg text-gray-300">{title}</p>
+      <p className="text-lg text-gray-300"><Typewriter
+        options={{
+          strings: title,
+          autoStart: true,
+          loop: true,
+          delay: 70,
+          deleteSpeed: 20,
+        }}
+      /></p>
 
       {/* Contact Links */}
       <div className="flex flex-wrap justify-center items-center mt-6 gap-4">

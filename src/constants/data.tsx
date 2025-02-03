@@ -43,13 +43,13 @@ export const educationData = [
 // Work Details
 export const experienceData = [
   {
-    title: "Frontend Developer (Part Time)",
+    title: "Data Analyst intern (Part Time)",
     company: "Genpact",
     location: "Budapest, Hungary",
     duration: "12/2023 - Present",
     responsibilities: [
-      "Optimized UI components and frontend performance for a seamless user experience.",
-      "Developed reusable frontend components to improve workflow efficiency by 30%.",
+      "Conducted financial data analysis using SAP, ensuring compliance and accuracy.",
+      "Streamlined workflows by automating repetitive tasks using SQL and Power BI, increasing efficiency by 30%",
     ],
   },
   {
